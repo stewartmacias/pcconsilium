@@ -1,4 +1,12 @@
 import brainwave from "./brainwave.svg";
+import iconPCConsiliumV1 from "./icon/V1.png";
+import iconPCConsiliumV2 from "./icon/V2.png";
+import iconPCConsiliumV3 from "./icon/V3.png";
+import iconPCConsiliumV4 from "./icon/V4.png";
+import horizontalPCConsiliumV1 from "./horizontal/v1.png";
+import horizontalPCConsiliumV2 from "./horizontal/v2.png";
+import horizontalPCConsiliumV3 from "./horizontal/v3.png";
+import horizontalPCConsiliumV4 from "./horizontal/v4.png";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -144,4 +152,13 @@ export {
   instagram,
   telegram,
   twitter,
+  //pcconsilium
+  iconPCConsiliumV1,
+  iconPCConsiliumV2,
+  iconPCConsiliumV3,
+  iconPCConsiliumV4,
+  horizontalPCConsiliumV1,
+  horizontalPCConsiliumV2,
+  horizontalPCConsiliumV3,
+  horizontalPCConsiliumV4,
 };
