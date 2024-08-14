@@ -39,18 +39,18 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "Servicios",
     url: "#features",
+  },
+  {
+    id: "2",
+    title: "Funciones",
+    url: "#how-to-use",
   },
   {
     id: "1",
     title: "Pricing",
     url: "#pricing",
-  },
-  {
-    id: "2",
-    title: "How to use",
-    url: "#how-to-use",
   },
   {
     id: "3",
@@ -128,21 +128,24 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Ofrecemos soluciones integrales para empresas de todos los tamaños, garantizando el cumplimiento legal y el bienestar de tus empleados.";
+
+export const collabText2 =
+  "Somos un equipo de abogados especializados en derecho laboral, seguridad y salud ocupacional, contabilidad y tributario, y trabajo social.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Expertos en derecho a tu servicio",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Cumplimos con la ley, superamos tus expectativas.",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Asesoría legal integral y confiable.",
   },
 ];
 
@@ -244,16 +247,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Laboral y Talento Humano",
+    text: "Protege tu negocio y fortalece a tu equipo con nuestros servicios de asesoría laboral y gestión de talento humano. Nos encargamos de que tu empresa cumpla con la normativa vigente mientras optimizas el rendimiento y bienestar de tus colaboradores.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Seguridad y Salud Ocupacional",
+    text: "Cuida lo más valioso de tu empresa: tu gente. Ofrecemos soluciones integrales en seguridad y salud ocupacional, garantizando un entorno de trabajo seguro y saludable que cumpla con todas las regulaciones legales.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,22 +264,22 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Contable y Tributario",
+    text: "Mantén tus finanzas en orden con nuestra asesoría contable y tributaria. Te ayudamos a gestionar tus obligaciones fiscales y a optimizar tus recursos, asegurando que tu negocio esté siempre al día y en cumplimiento con la ley.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Trabajo Social",
+    text: "Apoyamos el desarrollo integral de tu organización a través de nuestro servicio de trabajo social. Contribuimos a la mejora del entorno laboral y el bienestar de tus empleados, creando un ambiente inclusivo y equilibrado.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
   },
-  {
+  /*{
     id: "4",
     title: "Ask anything",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
@@ -291,16 +294,16 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
-  },
+  },*/
 ];
 
 export const socials = [
-  {
+  /*{
     id: "0",
     title: "Discord",
     iconUrl: discordBlack,
     url: "#",
-  },
+  },*/
   {
     id: "1",
     title: "Twitter",
@@ -313,12 +316,12 @@ export const socials = [
     iconUrl: instagram,
     url: "#",
   },
-  {
+  /*{
     id: "3",
     title: "Telegram",
     iconUrl: telegram,
     url: "#",
-  },
+  },*/
   {
     id: "4",
     title: "Facebook",
