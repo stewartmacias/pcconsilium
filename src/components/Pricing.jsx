@@ -28,8 +28,8 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with PCConsilium Lowcost"
-          title="Pay once, use forever"
+          tag="PCConsilium Lowcost"
+          title="Calidad y accesibilidad en un mismo lugar"
         />
 
         <div className="relative">

@@ -49,15 +49,15 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Pricing",
+    title: "Planes",
     url: "#pricing",
   },
   {
     id: "3",
-    title: "Roadmap",
+    title: "Conócenos",
     url: "#roadmap",
   },
-  {
+  /*{
     id: "4",
     title: "New account",
     url: "#signup",
@@ -68,7 +68,7 @@ export const navigation = [
     title: "Sign in",
     url: "#login",
     onlyMobile: true,
-  },
+  },*/
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -77,13 +77,13 @@ export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
-export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+export const pcConsiliumServices = [
+  "Ahorra tiempo y dinero",
+  "Reduce riesgos legales",
+  "Obtén una asesoría personalizada",
 ];
 
-export const brainwaveServicesIcons = [
+export const pcConsiliumServicesIcons = [
   recording03,
   recording01,
   disc02,
@@ -91,38 +91,42 @@ export const brainwaveServicesIcons = [
   sliders04,
 ];
 
-export const roadmap = [
+export const meetUs = [
   {
     id: "0",
-    title: "Voice recognition",
+    title: "Pedro Carranza",
     text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    date: "Abogado",
     status: "done",
+    role: "Laboral y Talento Humano",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
+    title: "Mariuxi Tola",
     text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
+    date: "Contador Pública",
+    status: "done",
+    role: "Contable y Tributario",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
+    title: "Bolívar Espín",
     text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
+    date: "Ingeniero Industrial",
     status: "done",
+    role: "Seguridad y Salud Ocupacional",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
+    title: "Linda Montesdeoca",
     text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    date: "Licenciada Trabajo Social",
     status: "progress",
+    role: "Trabajo Social",
     imageUrl: roadmap4,
   },
 ];
