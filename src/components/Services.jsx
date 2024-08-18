@@ -95,7 +95,7 @@ const Services = () => {
                   Orden en tus finanzas, tranquilidad para tu negocio
                 </p>
 
-                <ul className="flex items-center justify-between">
+                {/* <ul className="flex items-center justify-between">
                   {pcConsiliumServicesIcons.map((item, index) => (
                     <li
                       key={index}
@@ -116,7 +116,7 @@ const Services = () => {
                       </div>
                     </li>
                   ))}
-                </ul>
+                </ul> */}
               </div>
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
@@ -128,7 +128,7 @@ const Services = () => {
                   alt="Scary robot"
                 />
 
-                <VideoChatMessage />
+                {/* <VideoChatMessage /> */}
                 {/* <VideoBar /> */}
               </div>
             </div>

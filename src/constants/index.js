@@ -43,6 +43,10 @@ import {
   trabajoSocial,
   contableYTributario,
   seguridadYSaludOcupacional,
+  iconPCConsiliumV1,
+  iconPCConsiliumV2,
+  iconPCConsiliumV3,
+  iconPCConsiliumV4,
 } from "../assets";
 
 export const navigation = [
@@ -110,7 +114,7 @@ export const meetUs = [
   {
     id: "0",
     title: "Pedro Carranza",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+    text: "Abogado.",
     date: "Abogado",
     status: "done",
     role: "Laboral y Talento Humano",
@@ -120,7 +124,7 @@ export const meetUs = [
   {
     id: "1",
     title: "Mariuxi Tola",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+    text: "Contador Pública.",
     date: "Contador Pública",
     status: "done",
     role: "Contable y Tributario",
@@ -129,7 +133,7 @@ export const meetUs = [
   {
     id: "2",
     title: "Bolívar Espín",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
+    text: "Ingeniero Industrial.",
     date: "Ingeniero Industrial",
     status: "done",
     role: "Seguridad y Salud Ocupacional",
@@ -138,7 +142,7 @@ export const meetUs = [
   {
     id: "3",
     title: "Linda Montesdeoca",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+    text: "Licenciada Trabajo Social.",
     date: "Licenciada Trabajo Social",
     status: "progress",
     role: "Trabajo Social",
