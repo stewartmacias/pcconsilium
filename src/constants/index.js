@@ -34,6 +34,15 @@ import {
   telegram,
   twitter,
   yourlogo,
+  teamFemale,
+  pedroCarranza,
+  bolivarEspin,
+  lindaMontesdeoca,
+  smallOffice,
+  laboralYTalentoHumano,
+  trabajoSocial,
+  contableYTributario,
+  seguridadYSaludOcupacional,
 } from "../assets";
 
 export const navigation = [
@@ -83,6 +92,12 @@ export const pcConsiliumServices = [
   "Obtén una asesoría personalizada",
 ];
 
+export const pcConsiliumSocialServices = [
+  "El bienestar de tus empleados es nuestra prioridad ",
+  "Apoyamos a tus empleados en todo momento",
+  "Soluciones personalizadas para cada necesidad",
+];
+
 export const pcConsiliumServicesIcons = [
   recording03,
   recording01,
@@ -99,7 +114,7 @@ export const meetUs = [
     date: "Abogado",
     status: "done",
     role: "Laboral y Talento Humano",
-    imageUrl: roadmap1,
+    imageUrl: pedroCarranza,
     colorful: true,
   },
   {
@@ -109,7 +124,7 @@ export const meetUs = [
     date: "Contador Pública",
     status: "done",
     role: "Contable y Tributario",
-    imageUrl: roadmap2,
+    imageUrl: teamFemale,
   },
   {
     id: "2",
@@ -118,7 +133,7 @@ export const meetUs = [
     date: "Ingeniero Industrial",
     status: "done",
     role: "Seguridad y Salud Ocupacional",
-    imageUrl: roadmap3,
+    imageUrl: bolivarEspin,
   },
   {
     id: "3",
@@ -127,7 +142,7 @@ export const meetUs = [
     date: "Licenciada Trabajo Social",
     status: "progress",
     role: "Trabajo Social",
-    imageUrl: roadmap4,
+    imageUrl: lindaMontesdeoca,
   },
 ];
 
@@ -213,7 +228,7 @@ export const collabApps = [
 ];
 
 export const pricing = [
-  {
+  /*{
     id: "0",
     title: "Basic",
     description: "AI chatbot, personalized recommendations",
@@ -234,16 +249,17 @@ export const pricing = [
       "An analytics dashboard to track your conversations",
       "Priority support to solve issues quickly",
     ],
-  },
+  },*/
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    title: "¡Contáctanos ahora!",
+    description:
+      "¿Necesitas un aliado estratégico para tu negocio? ¡Contáctanos ahora!",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "¡No esperes más para hacer crecer tu negocio! Empieza hoy mismo",
+      "¿Quieres crecer y optimizar tus recursos? Descubre cómo podemos ayudarte",
+      "099 393 4305",
     ],
   },
 ];
@@ -255,15 +271,15 @@ export const benefits = [
     text: "Protege tu negocio y fortalece a tu equipo con nuestros servicios de asesoría laboral y gestión de talento humano. Nos encargamos de que tu empresa cumpla con la normativa vigente mientras optimizas el rendimiento y bienestar de tus colaboradores.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: laboralYTalentoHumano,
   },
   {
     id: "1",
     title: "Seguridad y Salud Ocupacional",
     text: "Cuida lo más valioso de tu empresa: tu gente. Ofrecemos soluciones integrales en seguridad y salud ocupacional, garantizando un entorno de trabajo seguro y saludable que cumpla con todas las regulaciones legales.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    iconUrl: benefitIcon3,
+    imageUrl: seguridadYSaludOcupacional,
     light: true,
   },
   {
@@ -272,7 +288,7 @@ export const benefits = [
     text: "Mantén tus finanzas en orden con nuestra asesoría contable y tributaria. Te ayudamos a gestionar tus obligaciones fiscales y a optimizar tus recursos, asegurando que tu negocio esté siempre al día y en cumplimiento con la ley.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    imageUrl: contableYTributario,
   },
   {
     id: "3",
@@ -280,7 +296,7 @@ export const benefits = [
     text: "Apoyamos el desarrollo integral de tu organización a través de nuestro servicio de trabajo social. Contribuimos a la mejora del entorno laboral y el bienestar de tus empleados, creando un ambiente inclusivo y equilibrado.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
+    imageUrl: trabajoSocial,
     light: true,
   },
   /*{

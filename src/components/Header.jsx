@@ -44,7 +44,7 @@ const Header = () => {
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="block w-[12rem] xl:mr-8" href="#hero">
           <img
-            src={horizontalPCConsiliumV4}
+            src={horizontalPCConsiliumV1}
             width={350}
             height={60}
             alt="Brainwave"

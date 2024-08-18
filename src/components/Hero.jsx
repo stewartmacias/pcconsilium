@@ -1,4 +1,4 @@
-import { curve, heroBackground, robot } from "../assets";
+import { curve, heroBackground, robot, smallOffice } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Tu socio legal para un negocio seguro y exitoso
+            Tu socio legal para un negocio seguro y exitoso{" "}
             <span className="inline-block relative">
               PCConsilium Lowcost{" "}
               <img
@@ -50,7 +50,7 @@ const Hero = () => {
 
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
-                  src={robot}
+                  src={smallOffice}
                   className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
                   width={1024}
                   height={490}
@@ -69,12 +69,12 @@ const Hero = () => {
                   </ul>
                 </ScrollParallax>
 
-                <ScrollParallax isAbsolutelyPositioned>
+                {/* <ScrollParallax isAbsolutelyPositioned>
                   <Notification
                     className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
                     title="Code generation"
                   />
-                </ScrollParallax>
+                </ScrollParallax> */}
               </div>
             </div>
 

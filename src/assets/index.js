@@ -83,6 +83,17 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+import teamFemale from "./team/team_female.webp";
+import pedroCarranza from "./team/pedroCarranza.webp";
+import bolivarEspin from "./team/bolivarEspin.webp";
+import lindaMontesdeoca from "./team/lindaMontesdeoca.webp";
+
+import smallOffice from "./office/smallOffice.webp";
+import laboralYTalentoHumano from "./office/laboralYTalentoHumano.webp";
+import contableYTributario from "./office/contableYTributario.webp";
+import seguridadYSaludOcupacional from "./office/seguridadYSaludOcupacional.webp";
+import trabajoSocial from "./office/trabajoSocial.webp";
+
 export {
   brainwave,
   check,
@@ -161,4 +172,15 @@ export {
   horizontalPCConsiliumV2,
   horizontalPCConsiliumV3,
   horizontalPCConsiliumV4,
+  //team
+  teamFemale,
+  pedroCarranza,
+  lindaMontesdeoca,
+  bolivarEspin,
+  //office
+  smallOffice,
+  laboralYTalentoHumano,
+  trabajoSocial,
+  contableYTributario,
+  seguridadYSaludOcupacional,
 };
