@@ -139,4 +139,5 @@ export default {
       });
     }),
   ],
+  base: "https://stewartmacias.github.io/pcconsilium/",
 };
